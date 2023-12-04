@@ -6,6 +6,9 @@
     box-sizing: border-box;
  
 }
+a{
+    text-decoration: none;
+}
 .main-container
 {
     display: flex;
@@ -26,7 +29,7 @@
   
     background-color:  #000;
    
-   gap: 45px;
+   gap: 30px;
    overflow-y: scroll;
 }
 .logo>img
@@ -37,8 +40,9 @@
 .links
 {
    
-    width: 100%;
-    height: 30px;;
+    width: 85%;
+    height: 50px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     column-gap: 15px;
@@ -52,7 +56,7 @@
     align-items: center;
     width: 80%;
     margin-left: 15px;
- padding-bottom: 20px;
+    padding: 10px;
 }
  p,li{
     color: white;
@@ -68,21 +72,21 @@ letter-spacing: -0.997px;
 {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:5px;
     margin-left: 15px;
 }
 .nav-links-2
 {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:5px;
     margin-left: 15px;
 }
 .nav-links-3
 {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:5px;
     margin-left: 15px;
 }
 .right-side-container
@@ -221,6 +225,7 @@ text-decoration: none;
     gap: 5%;
     width: 22%;
     height: 306px;
+ 
     background-color: #181818;
 }
 
@@ -232,7 +237,10 @@ text-decoration: none;
 }
 .show>p
 {
+    width: 80%;
     margin-left: 10%;
+    height: 10%;
+
 } 
 .show p:first-child
 {
@@ -341,4 +349,17 @@ footer
     width: 100vw;
     height: 3vh;
     background-color: green;
+}
+
+.links:hover{
+    border-radius: 6px;
+background: #282828;
+}
+.install-app:hover{
+    border-radius: 6px;
+background: #caaeae6f;
+
+}
+.list:hover{
+    background-color: rgb(215, 146, 215);
 }
